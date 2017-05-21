@@ -10,10 +10,10 @@
 		861F00F11ED224E900771445 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861F00F01ED224E900771445 /* AppDelegate.swift */; };
 		861F00F31ED224E900771445 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861F00F21ED224E900771445 /* ViewController.swift */; };
 		861F00F61ED224E900771445 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 861F00F41ED224E900771445 /* Main.storyboard */; };
-		861F00F81ED224E900771445 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 861F00F71ED224E900771445 /* Assets.xcassets */; };
 		861F00FB1ED224E900771445 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 861F00F91ED224E900771445 /* LaunchScreen.storyboard */; };
 		861F01061ED224EA00771445 /* mcheckersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861F01051ED224EA00771445 /* mcheckersTests.swift */; };
 		861F01111ED224EA00771445 /* mcheckersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861F01101ED224EA00771445 /* mcheckersUITests.swift */; };
+		869E62001ED22F8500C9C85B /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 869E61FF1ED22F8500C9C85B /* Media.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +38,6 @@
 		861F00F01ED224E900771445 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		861F00F21ED224E900771445 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		861F00F51ED224E900771445 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		861F00F71ED224E900771445 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		861F00FA1ED224E900771445 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		861F00FC1ED224E900771445 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		861F01011ED224EA00771445 /* mcheckersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mcheckersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +46,7 @@
 		861F010C1ED224EA00771445 /* mcheckersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mcheckersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		861F01101ED224EA00771445 /* mcheckersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mcheckersUITests.swift; sourceTree = "<group>"; };
 		861F01121ED224EA00771445 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		869E61FF1ED22F8500C9C85B /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,10 +97,10 @@
 		861F00EF1ED224E900771445 /* mcheckers */ = {
 			isa = PBXGroup;
 			children = (
+				869E61FF1ED22F8500C9C85B /* Media.xcassets */,
 				861F00F01ED224E900771445 /* AppDelegate.swift */,
 				861F00F21ED224E900771445 /* ViewController.swift */,
 				861F00F41ED224E900771445 /* Main.storyboard */,
-				861F00F71ED224E900771445 /* Assets.xcassets */,
 				861F00F91ED224E900771445 /* LaunchScreen.storyboard */,
 				861F00FC1ED224E900771445 /* Info.plist */,
 			);
@@ -233,7 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				861F00FB1ED224E900771445 /* LaunchScreen.storyboard in Resources */,
-				861F00F81ED224E900771445 /* Assets.xcassets in Resources */,
+				869E62001ED22F8500C9C85B /* Media.xcassets in Resources */,
 				861F00F61ED224E900771445 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -507,6 +507,7 @@
 				861F01171ED224EA00771445 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		861F01181ED224EA00771445 /* Build configuration list for PBXNativeTarget "mcheckersTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +516,7 @@
 				861F011A1ED224EA00771445 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		861F011B1ED224EA00771445 /* Build configuration list for PBXNativeTarget "mcheckersUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +525,7 @@
 				861F011D1ED224EA00771445 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
