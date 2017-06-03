@@ -14,6 +14,8 @@
 		861F01061ED224EA00771445 /* mcheckersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861F01051ED224EA00771445 /* mcheckersTests.swift */; };
 		861F01111ED224EA00771445 /* mcheckersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861F01101ED224EA00771445 /* mcheckersUITests.swift */; };
 		869E62001ED22F8500C9C85B /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 869E61FF1ED22F8500C9C85B /* Media.xcassets */; };
+		86CBA62E1EE24DF5004A458E /* SquareClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86CBA62D1EE24DF5004A458E /* SquareClass.swift */; };
+		86CBA6341EE32F08004A458E /* PieceClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86CBA6331EE32F08004A458E /* PieceClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		861F01101ED224EA00771445 /* mcheckersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mcheckersUITests.swift; sourceTree = "<group>"; };
 		861F01121ED224EA00771445 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		869E61FF1ED22F8500C9C85B /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		86CBA62D1EE24DF5004A458E /* SquareClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SquareClass.swift; sourceTree = "<group>"; };
+		86CBA6331EE32F08004A458E /* PieceClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PieceClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				861F00F41ED224E900771445 /* Main.storyboard */,
 				861F00F91ED224E900771445 /* LaunchScreen.storyboard */,
 				861F00FC1ED224E900771445 /* Info.plist */,
+				86CBA62D1EE24DF5004A458E /* SquareClass.swift */,
+				86CBA6331EE32F08004A458E /* PieceClass.swift */,
 			);
 			path = mcheckers;
 			sourceTree = "<group>";
@@ -261,6 +267,8 @@
 			files = (
 				861F00F31ED224E900771445 /* ViewController.swift in Sources */,
 				861F00F11ED224E900771445 /* AppDelegate.swift in Sources */,
+				86CBA62E1EE24DF5004A458E /* SquareClass.swift in Sources */,
+				86CBA6341EE32F08004A458E /* PieceClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
