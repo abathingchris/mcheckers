@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -17,6 +17,24 @@
 		86CBA62E1EE24DF5004A458E /* Square.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86CBA62D1EE24DF5004A458E /* Square.swift */; };
 		86CBA6341EE32F08004A458E /* Piece.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86CBA6331EE32F08004A458E /* Piece.swift */; };
 		8E466EC8AD950594FBDAA49A /* Pods_mcheckers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BF63BBE90D7949573F3A8A6 /* Pods_mcheckers.framework */; };
+		BD15E8EB1EF5810D00D01AAD /* FocusSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD15E8DB1EF5810C00D01AAD /* FocusSquare.swift */; };
+		BD15E8EC1EF5810D00D01AAD /* Gesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD15E8DC1EF5810C00D01AAD /* Gesture.swift */; };
+		BD15E8ED1EF5810D00D01AAD /* HitTestVisualization.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD15E8DD1EF5810C00D01AAD /* HitTestVisualization.swift */; };
+		BD15E8EE1EF5810D00D01AAD /* Plane.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD15E8DE1EF5810C00D01AAD /* Plane.swift */; };
+		BD15E8EF1EF5810D00D01AAD /* PlaneDebugVisualization.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD15E8DF1EF5810C00D01AAD /* PlaneDebugVisualization.swift */; };
+		BD15E8F01EF5810D00D01AAD /* Candle.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD15E8E11EF5810C00D01AAD /* Candle.swift */; };
+		BD15E8F11EF5810D00D01AAD /* Chair.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD15E8E21EF5810C00D01AAD /* Chair.swift */; };
+		BD15E8F21EF5810D00D01AAD /* Cup.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD15E8E31EF5810C00D01AAD /* Cup.swift */; };
+		BD15E8F31EF5810D00D01AAD /* Lamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD15E8E41EF5810C00D01AAD /* Lamp.swift */; };
+		BD15E8F41EF5810D00D01AAD /* Vase.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD15E8E51EF5810C00D01AAD /* Vase.swift */; };
+		BD15E8F51EF5810D00D01AAD /* ARCameraTrackingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD15E8E61EF5810C00D01AAD /* ARCameraTrackingState.swift */; };
+		BD15E8F61EF5810D00D01AAD /* TextManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD15E8E71EF5810C00D01AAD /* TextManager.swift */; };
+		BD15E8F71EF5810D00D01AAD /* VirtualObjectSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD15E8E81EF5810C00D01AAD /* VirtualObjectSelectionViewController.swift */; };
+		BD15E8F81EF5810D00D01AAD /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD15E8E91EF5810C00D01AAD /* SettingsViewController.swift */; };
+		BD15E8F91EF5810D00D01AAD /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD15E8EA1EF5810C00D01AAD /* Utilities.swift */; };
+		BD15E8FB1EF5811A00D01AAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD15E8FA1EF5811900D01AAD /* Assets.xcassets */; };
+		BD15E8FD1EF5812000D01AAD /* Models.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = BD15E8FC1EF5812000D01AAD /* Models.scnassets */; };
+		BD15E8FF1EF581B200D01AAD /* VirtualObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD15E8FE1EF581B200D01AAD /* VirtualObject.swift */; };
 		BDA26A301EE3368B00AE9EAA /* MHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA26A2F1EE3368B00AE9EAA /* MHelper.swift */; };
 		BDB9D9D71EE33A0300917D68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB9D9D61EE33A0300917D68 /* AppDelegate.swift */; };
 		DC49C8521992C31CD2F6FD62 /* Pods_mcheckersTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E28F70E9C65547837F564E2 /* Pods_mcheckersTests.framework */; };
@@ -62,6 +80,24 @@
 		A23904E2D52B9FE441BC176C /* Pods-mcheckers.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mcheckers.debug.xcconfig"; path = "Pods/Target Support Files/Pods-mcheckers/Pods-mcheckers.debug.xcconfig"; sourceTree = "<group>"; };
 		ABCF2E1066574985F354D8E0 /* Pods-mcheckersUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mcheckersUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-mcheckersUITests/Pods-mcheckersUITests.release.xcconfig"; sourceTree = "<group>"; };
 		AF6D3CEA95F0BA68377FC427 /* Pods-mcheckersTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mcheckersTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-mcheckersTests/Pods-mcheckersTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BD15E8DB1EF5810C00D01AAD /* FocusSquare.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FocusSquare.swift; sourceTree = "<group>"; };
+		BD15E8DC1EF5810C00D01AAD /* Gesture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Gesture.swift; sourceTree = "<group>"; };
+		BD15E8DD1EF5810C00D01AAD /* HitTestVisualization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HitTestVisualization.swift; sourceTree = "<group>"; };
+		BD15E8DE1EF5810C00D01AAD /* Plane.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Plane.swift; sourceTree = "<group>"; };
+		BD15E8DF1EF5810C00D01AAD /* PlaneDebugVisualization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaneDebugVisualization.swift; sourceTree = "<group>"; };
+		BD15E8E11EF5810C00D01AAD /* Candle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Candle.swift; sourceTree = "<group>"; };
+		BD15E8E21EF5810C00D01AAD /* Chair.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chair.swift; sourceTree = "<group>"; };
+		BD15E8E31EF5810C00D01AAD /* Cup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cup.swift; sourceTree = "<group>"; };
+		BD15E8E41EF5810C00D01AAD /* Lamp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lamp.swift; sourceTree = "<group>"; };
+		BD15E8E51EF5810C00D01AAD /* Vase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vase.swift; sourceTree = "<group>"; };
+		BD15E8E61EF5810C00D01AAD /* ARCameraTrackingState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ARCameraTrackingState.swift; path = "../../../../../Downloads/PlacingObjects-4/ARKitExample/ARCameraTrackingState.swift"; sourceTree = "<group>"; };
+		BD15E8E71EF5810C00D01AAD /* TextManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TextManager.swift; path = "../../../../../Downloads/PlacingObjects-4/ARKitExample/TextManager.swift"; sourceTree = "<group>"; };
+		BD15E8E81EF5810C00D01AAD /* VirtualObjectSelectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VirtualObjectSelectionViewController.swift; path = "../../../../../Downloads/PlacingObjects-4/ARKitExample/VirtualObjectSelectionViewController.swift"; sourceTree = "<group>"; };
+		BD15E8E91EF5810C00D01AAD /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingsViewController.swift; path = "../../../../../Downloads/PlacingObjects-4/ARKitExample/SettingsViewController.swift"; sourceTree = "<group>"; };
+		BD15E8EA1EF5810C00D01AAD /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Utilities.swift; path = "../../../../../Downloads/PlacingObjects-4/ARKitExample/Utilities.swift"; sourceTree = "<group>"; };
+		BD15E8FA1EF5811900D01AAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../../../../Downloads/PlacingObjects-4/ARKitExample/Assets.xcassets"; sourceTree = "<group>"; };
+		BD15E8FC1EF5812000D01AAD /* Models.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = Models.scnassets; sourceTree = "<group>"; };
+		BD15E8FE1EF581B200D01AAD /* VirtualObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VirtualObject.swift; sourceTree = "<group>"; };
 		BDA26A2F1EE3368B00AE9EAA /* MHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MHelper.swift; path = Other/MHelper.swift; sourceTree = "<group>"; };
 		BDB9D9D61EE33A0300917D68 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FD5F071B563EA36B06503514 /* Pods_mcheckersUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mcheckersUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -147,6 +183,15 @@
 				BDA26A321EE3374000AE9EAA /* View Controllers */,
 				BDA26A311EE3372600AE9EAA /* Storyboards */,
 				869E61FF1ED22F8500C9C85B /* Media.xcassets */,
+				BD15E8E01EF5810C00D01AAD /* Virtual Objects */,
+				BD15E8DA1EF5810C00D01AAD /* UI Elements */,
+				BD15E8E91EF5810C00D01AAD /* SettingsViewController.swift */,
+				BD15E8E81EF5810C00D01AAD /* VirtualObjectSelectionViewController.swift */,
+				BD15E8E71EF5810C00D01AAD /* TextManager.swift */,
+				BD15E8E61EF5810C00D01AAD /* ARCameraTrackingState.swift */,
+				BD15E8FC1EF5812000D01AAD /* Models.scnassets */,
+				BD15E8FA1EF5811900D01AAD /* Assets.xcassets */,
+				BD15E8EA1EF5810C00D01AAD /* Utilities.swift */,
 				861F00FC1ED224E900771445 /* Info.plist */,
 				BDB9D9D61EE33A0300917D68 /* AppDelegate.swift */,
 			);
@@ -169,6 +214,33 @@
 				861F01121ED224EA00771445 /* Info.plist */,
 			);
 			path = mcheckersUITests;
+			sourceTree = "<group>";
+		};
+		BD15E8DA1EF5810C00D01AAD /* UI Elements */ = {
+			isa = PBXGroup;
+			children = (
+				BD15E8DB1EF5810C00D01AAD /* FocusSquare.swift */,
+				BD15E8DC1EF5810C00D01AAD /* Gesture.swift */,
+				BD15E8DD1EF5810C00D01AAD /* HitTestVisualization.swift */,
+				BD15E8DE1EF5810C00D01AAD /* Plane.swift */,
+				BD15E8DF1EF5810C00D01AAD /* PlaneDebugVisualization.swift */,
+			);
+			name = "UI Elements";
+			path = "../../../../../Downloads/PlacingObjects-4/ARKitExample/UI Elements";
+			sourceTree = "<group>";
+		};
+		BD15E8E01EF5810C00D01AAD /* Virtual Objects */ = {
+			isa = PBXGroup;
+			children = (
+				BD15E8FE1EF581B200D01AAD /* VirtualObject.swift */,
+				BD15E8E11EF5810C00D01AAD /* Candle.swift */,
+				BD15E8E21EF5810C00D01AAD /* Chair.swift */,
+				BD15E8E31EF5810C00D01AAD /* Cup.swift */,
+				BD15E8E41EF5810C00D01AAD /* Lamp.swift */,
+				BD15E8E51EF5810C00D01AAD /* Vase.swift */,
+			);
+			name = "Virtual Objects";
+			path = "../../../../../Downloads/PlacingObjects-4/ARKitExample/Virtual Objects";
 			sourceTree = "<group>";
 		};
 		BDA26A311EE3372600AE9EAA /* Storyboards */ = {
@@ -290,7 +362,7 @@
 				};
 			};
 			buildConfigurationList = 861F00E81ED224E900771445 /* Build configuration list for PBXProject "mcheckers" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -316,6 +388,8 @@
 			files = (
 				861F00FB1ED224E900771445 /* LaunchScreen.storyboard in Resources */,
 				869E62001ED22F8500C9C85B /* Media.xcassets in Resources */,
+				BD15E8FB1EF5811A00D01AAD /* Assets.xcassets in Resources */,
+				BD15E8FD1EF5812000D01AAD /* Models.scnassets in Resources */,
 				861F00F61ED224E900771445 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -479,10 +553,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD15E8F61EF5810D00D01AAD /* TextManager.swift in Sources */,
+				BD15E8F01EF5810D00D01AAD /* Candle.swift in Sources */,
+				BD15E8EC1EF5810D00D01AAD /* Gesture.swift in Sources */,
+				BD15E8EE1EF5810D00D01AAD /* Plane.swift in Sources */,
 				861F00F31ED224E900771445 /* ViewController.swift in Sources */,
+				BD15E8FF1EF581B200D01AAD /* VirtualObject.swift in Sources */,
+				BD15E8F81EF5810D00D01AAD /* SettingsViewController.swift in Sources */,
+				BD15E8F21EF5810D00D01AAD /* Cup.swift in Sources */,
+				BD15E8F71EF5810D00D01AAD /* VirtualObjectSelectionViewController.swift in Sources */,
+				BD15E8EF1EF5810D00D01AAD /* PlaneDebugVisualization.swift in Sources */,
+				BD15E8F51EF5810D00D01AAD /* ARCameraTrackingState.swift in Sources */,
+				BD15E8EB1EF5810D00D01AAD /* FocusSquare.swift in Sources */,
 				86CBA62E1EE24DF5004A458E /* Square.swift in Sources */,
+				BD15E8ED1EF5810D00D01AAD /* HitTestVisualization.swift in Sources */,
+				BD15E8F31EF5810D00D01AAD /* Lamp.swift in Sources */,
 				BDA26A301EE3368B00AE9EAA /* MHelper.swift in Sources */,
+				BD15E8F11EF5810D00D01AAD /* Chair.swift in Sources */,
+				BD15E8F41EF5810D00D01AAD /* Vase.swift in Sources */,
 				BDB9D9D71EE33A0300917D68 /* AppDelegate.swift in Sources */,
+				BD15E8F91EF5810D00D01AAD /* Utilities.swift in Sources */,
 				86CBA6341EE32F08004A458E /* Piece.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -638,7 +728,9 @@
 			baseConfigurationReference = A23904E2D52B9FE441BC176C /* Pods-mcheckers.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = J5YSMC3E94;
 				INFOPLIST_FILE = mcheckers/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mcheckers;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -651,7 +743,9 @@
 			baseConfigurationReference = 3C2000024138BC91677D2069 /* Pods-mcheckers.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = J5YSMC3E94;
 				INFOPLIST_FILE = mcheckers/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mcheckers;
 				PRODUCT_NAME = "$(TARGET_NAME)";
