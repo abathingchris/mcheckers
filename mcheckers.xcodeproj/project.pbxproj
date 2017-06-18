@@ -19,6 +19,7 @@
 		8E466EC8AD950594FBDAA49A /* Pods_mcheckers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BF63BBE90D7949573F3A8A6 /* Pods_mcheckers.framework */; };
 		BD284D901EF60A5A00546DDA /* ARCameraTrackingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD284D8F1EF60A5900546DDA /* ARCameraTrackingState.swift */; };
 		BD75C54F1EF6111C007B5B71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD284D911EF60A7D00546DDA /* Assets.xcassets */; };
+		BD75C5501EF6131E007B5B71 /* Models.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = BD284D921EF60A9200546DDA /* Models.scnassets */; };
 		BD9BFA3A1EF60B6E00F50EF9 /* VirtualObjectSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD284DA21EF60AB000546DDA /* VirtualObjectSelectionViewController.swift */; };
 		BD9BFA3B1EF60B7700F50EF9 /* VirtualObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9BFA391EF60AEE00F50EF9 /* VirtualObject.swift */; };
 		BD9BFA3C1EF60B7F00F50EF9 /* Candle.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD284D9D1EF60AAA00546DDA /* Candle.swift */; };
@@ -386,6 +387,7 @@
 				861F00FB1ED224E900771445 /* LaunchScreen.storyboard in Resources */,
 				869E62001ED22F8500C9C85B /* Media.xcassets in Resources */,
 				BD75C54F1EF6111C007B5B71 /* Assets.xcassets in Resources */,
+				BD75C5501EF6131E007B5B71 /* Models.scnassets in Resources */,
 				861F00F61ED224E900771445 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
