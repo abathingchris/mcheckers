@@ -18,6 +18,7 @@
 		86CBA6341EE32F08004A458E /* Piece.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86CBA6331EE32F08004A458E /* Piece.swift */; };
 		8E466EC8AD950594FBDAA49A /* Pods_mcheckers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BF63BBE90D7949573F3A8A6 /* Pods_mcheckers.framework */; };
 		BD284D901EF60A5A00546DDA /* ARCameraTrackingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD284D8F1EF60A5900546DDA /* ARCameraTrackingState.swift */; };
+		BD28EC4B1EF6162C0072404C /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD28EC4A1EF6162C0072404C /* Board.swift */; };
 		BD75C54F1EF6111C007B5B71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD284D911EF60A7D00546DDA /* Assets.xcassets */; };
 		BD75C5501EF6131E007B5B71 /* Models.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = BD284D921EF60A9200546DDA /* Models.scnassets */; };
 		BD9BFA3A1EF60B6E00F50EF9 /* VirtualObjectSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD284DA21EF60AB000546DDA /* VirtualObjectSelectionViewController.swift */; };
@@ -97,6 +98,7 @@
 		BD284DA01EF60AAA00546DDA /* Lamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lamp.swift; sourceTree = "<group>"; };
 		BD284DA11EF60AAA00546DDA /* Vase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vase.swift; sourceTree = "<group>"; };
 		BD284DA21EF60AB000546DDA /* VirtualObjectSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualObjectSelectionViewController.swift; sourceTree = "<group>"; };
+		BD28EC4A1EF6162C0072404C /* Board.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
 		BD9BFA391EF60AEE00F50EF9 /* VirtualObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualObject.swift; sourceTree = "<group>"; };
 		BDA26A2F1EE3368B00AE9EAA /* MHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MHelper.swift; path = Other/MHelper.swift; sourceTree = "<group>"; };
 		BDB9D9D61EE33A0300917D68 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -233,6 +235,7 @@
 			children = (
 				BD9BFA391EF60AEE00F50EF9 /* VirtualObject.swift */,
 				BD284D9D1EF60AAA00546DDA /* Candle.swift */,
+				BD28EC4A1EF6162C0072404C /* Board.swift */,
 				BD284D9E1EF60AAA00546DDA /* Chair.swift */,
 				BD284D9F1EF60AAA00546DDA /* Cup.swift */,
 				BD284DA01EF60AAA00546DDA /* Lamp.swift */,
@@ -555,6 +558,7 @@
 				BD9BFA3D1EF60B8100F50EF9 /* Chair.swift in Sources */,
 				86CBA62E1EE24DF5004A458E /* Square.swift in Sources */,
 				BD9BFA3A1EF60B6E00F50EF9 /* VirtualObjectSelectionViewController.swift in Sources */,
+				BD28EC4B1EF6162C0072404C /* Board.swift in Sources */,
 				BD9BFA3F1EF60B8400F50EF9 /* Lamp.swift in Sources */,
 				BD9BFA421EF60B8E00F50EF9 /* FocusSquare.swift in Sources */,
 				BD9BFA441EF60B9100F50EF9 /* HitTestVisualization.swift in Sources */,
