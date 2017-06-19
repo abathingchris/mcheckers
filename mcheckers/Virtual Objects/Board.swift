@@ -11,11 +11,11 @@ import SceneKit
 class Board: VirtualObject {
 	
 	override init() {
-		super.init(modelName: "chessboard", fileExtension: "scn", thumbImageFilename: "candle", title: "Board")
+		super.init(modelName: "chessboard", fileExtension: "scn", thumbImageFilename: "board", title: "Board")
 	}
 
 	init(name: String) {
-		super.init(modelName: name, fileExtension: "scn", thumbImageFilename: "candle", title: name.capitalized)
+		super.init(modelName: name, fileExtension: "scn", thumbImageFilename: "board", title: name.capitalized)
 	}
 
 	required init?(coder aDecoder: NSCoder) {
