@@ -36,6 +36,7 @@
 		BD9BFA461EF60B9400F50EF9 /* PlaneDebugVisualization.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD284D9A1EF60A9C00546DDA /* PlaneDebugVisualization.swift */; };
 		BD9BFA471EF60B9900F50EF9 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD284D931EF60A9800546DDA /* SettingsViewController.swift */; };
 		BD9BFA481EF60B9B00F50EF9 /* TextManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD284D941EF60A9800546DDA /* TextManager.swift */; };
+		BDA1E15F1EF6FC8100A6E6B2 /* Checker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA1E15E1EF6FC8100A6E6B2 /* Checker.swift */; };
 		BDA26A301EE3368B00AE9EAA /* MHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA26A2F1EE3368B00AE9EAA /* MHelper.swift */; };
 		BDB9D9D71EE33A0300917D68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB9D9D61EE33A0300917D68 /* AppDelegate.swift */; };
 		DC49C8521992C31CD2F6FD62 /* Pods_mcheckersTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E28F70E9C65547837F564E2 /* Pods_mcheckersTests.framework */; };
@@ -100,6 +101,7 @@
 		BD284DA21EF60AB000546DDA /* VirtualObjectSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualObjectSelectionViewController.swift; sourceTree = "<group>"; };
 		BD28EC4A1EF6162C0072404C /* Board.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
 		BD9BFA391EF60AEE00F50EF9 /* VirtualObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualObject.swift; sourceTree = "<group>"; };
+		BDA1E15E1EF6FC8100A6E6B2 /* Checker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Checker.swift; sourceTree = "<group>"; };
 		BDA26A2F1EE3368B00AE9EAA /* MHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MHelper.swift; path = Other/MHelper.swift; sourceTree = "<group>"; };
 		BDB9D9D61EE33A0300917D68 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FD5F071B563EA36B06503514 /* Pods_mcheckersUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mcheckersUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -236,6 +238,7 @@
 				BD9BFA391EF60AEE00F50EF9 /* VirtualObject.swift */,
 				BD284D9D1EF60AAA00546DDA /* Candle.swift */,
 				BD28EC4A1EF6162C0072404C /* Board.swift */,
+				BDA1E15E1EF6FC8100A6E6B2 /* Checker.swift */,
 				BD284D9E1EF60AAA00546DDA /* Chair.swift */,
 				BD284D9F1EF60AAA00546DDA /* Cup.swift */,
 				BD284DA01EF60AAA00546DDA /* Lamp.swift */,
@@ -576,6 +579,7 @@
 				BDA26A301EE3368B00AE9EAA /* MHelper.swift in Sources */,
 				BDB9D9D71EE33A0300917D68 /* AppDelegate.swift in Sources */,
 				86CBA6341EE32F08004A458E /* Piece.swift in Sources */,
+				BDA1E15F1EF6FC8100A6E6B2 /* Checker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
