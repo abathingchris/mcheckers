@@ -746,7 +746,7 @@
 			baseConfigurationReference = A23904E2D52B9FE441BC176C /* Pods-mcheckers.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = J5YSMC3E94;
+				DEVELOPMENT_TEAM = CS9ZFJKY76;
 				INFOPLIST_FILE = mcheckers/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -761,7 +761,7 @@
 			baseConfigurationReference = 3C2000024138BC91677D2069 /* Pods-mcheckers.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = J5YSMC3E94;
+				DEVELOPMENT_TEAM = CS9ZFJKY76;
 				INFOPLIST_FILE = mcheckers/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
